@@ -159,3 +159,69 @@ $RECYCLE.BIN/
 /src/lib/*.dll
 /src/.vs
 deploy/Landis.Extension.Output.LandscapeHabitat.deps.json
+testings/Core8.0-BirdHabitat2.0/biomass-succession/biomass-anpp-10.tif
+testings/Core8.0-BirdHabitat2.0/biomass-succession/biomass-anpp-20.tif
+testings/Core8.0-BirdHabitat2.0/biomass-succession/biomass-anpp-30.tif
+testings/Core8.0-BirdHabitat2.0/biomass-succession/biomass-anpp-40.tif
+testings/Core8.0-BirdHabitat2.0/biomass-succession/biomass-anpp-50.tif
+testings/Core8.0-BirdHabitat2.0/output/landscape-habitat/habitat-SPP1-0.tif
+testings/Core8.0-BirdHabitat2.0/output/landscape-habitat/habitat-SPP1-10.tif
+testings/Core8.0-BirdHabitat2.0/output/landscape-habitat/habitat-SPP1-20.tif
+testings/Core8.0-BirdHabitat2.0/output/landscape-habitat/habitat-SPP1-30.tif
+testings/Core8.0-BirdHabitat2.0/output/landscape-habitat/habitat-SPP1-40.tif
+testings/Core8.0-BirdHabitat2.0/output/landscape-habitat/habitat-SPP1-50.tif
+testings/Core8.0-BirdHabitat2.0/output/landscape-habitat/habitat-SPP2-0.tif
+testings/Core8.0-BirdHabitat2.0/output/landscape-habitat/habitat-SPP2-10.tif
+testings/Core8.0-BirdHabitat2.0/output/landscape-habitat/habitat-SPP2-20.tif
+testings/Core8.0-BirdHabitat2.0/output/landscape-habitat/habitat-SPP2-30.tif
+testings/Core8.0-BirdHabitat2.0/output/landscape-habitat/habitat-SPP2-40.tif
+testings/Core8.0-BirdHabitat2.0/output/landscape-habitat/habitat-SPP2-50.tif
+testings/Core8.0-BirdHabitat2.0/output/landscape-habitat/logforest200-0.tif
+testings/Core8.0-BirdHabitat2.0/output/landscape-habitat/logforest200-10.tif
+testings/Core8.0-BirdHabitat2.0/output/landscape-habitat/logforest200-20.tif
+testings/Core8.0-BirdHabitat2.0/output/landscape-habitat/logforest200-30.tif
+testings/Core8.0-BirdHabitat2.0/output/landscape-habitat/logforest200-40.tif
+testings/Core8.0-BirdHabitat2.0/output/landscape-habitat/logforest200-50.tif
+testings/Core8.0-BirdHabitat2.0/output/landscape-habitat/loguc200-0.tif
+testings/Core8.0-BirdHabitat2.0/output/landscape-habitat/loguc200-10.tif
+testings/Core8.0-BirdHabitat2.0/output/landscape-habitat/loguc200-20.tif
+testings/Core8.0-BirdHabitat2.0/output/landscape-habitat/loguc200-30.tif
+testings/Core8.0-BirdHabitat2.0/output/landscape-habitat/loguc200-40.tif
+testings/Core8.0-BirdHabitat2.0/output/landscape-habitat/loguc200-50.tif
+testings/Core8.0-BirdHabitat2.0/output/landscape-habitat/pdsi-0.tif
+testings/Core8.0-BirdHabitat2.0/output/landscape-habitat/pdsi-10.tif
+testings/Core8.0-BirdHabitat2.0/output/landscape-habitat/pdsi-20.tif
+testings/Core8.0-BirdHabitat2.0/output/landscape-habitat/pdsi-30.tif
+testings/Core8.0-BirdHabitat2.0/output/landscape-habitat/pdsi-40.tif
+testings/Core8.0-BirdHabitat2.0/output/landscape-habitat/pdsi-50.tif
+testings/Core8.0-BirdHabitat2.0/output/landscape-habitat/reclass2-0.tif
+testings/Core8.0-BirdHabitat2.0/output/landscape-habitat/reclass2-10.tif
+testings/Core8.0-BirdHabitat2.0/output/landscape-habitat/reclass2-20.tif
+testings/Core8.0-BirdHabitat2.0/output/landscape-habitat/reclass2-30.tif
+testings/Core8.0-BirdHabitat2.0/output/landscape-habitat/reclass2-40.tif
+testings/Core8.0-BirdHabitat2.0/output/landscape-habitat/reclass2-50.tif
+testings/Core8.0-BirdHabitat2.0/output/landscape-habitat/SPP1_log.csv
+testings/Core8.0-BirdHabitat2.0/output/landscape-habitat/SPP2_log.csv
+testings/Core8.0-BirdHabitat2.0/output/landscape-habitat/uf500-0.tif
+testings/Core8.0-BirdHabitat2.0/output/landscape-habitat/uf500-10.tif
+testings/Core8.0-BirdHabitat2.0/output/landscape-habitat/uf500-20.tif
+testings/Core8.0-BirdHabitat2.0/output/landscape-habitat/uf500-30.tif
+testings/Core8.0-BirdHabitat2.0/output/landscape-habitat/uf500-40.tif
+testings/Core8.0-BirdHabitat2.0/output/landscape-habitat/uf500-50.tif
+testings/Core8.0-BirdHabitat2.0/Metadata/Biomass Succession/Biomass Succession.xml
+testings/Core8.0-BirdHabitat2.0/Metadata/Biomass Succession/SummaryLog_Metadata.xml
+testings/Core8.0-BirdHabitat2.0/Metadata/Climate-Library/Annual-Log_Metadata.xml
+testings/Core8.0-BirdHabitat2.0/Metadata/Climate-Library/Climate-Library.xml
+testings/Core8.0-BirdHabitat2.0/Metadata/Climate-Library/Future-Input-Log_Metadata.xml
+testings/Core8.0-BirdHabitat2.0/Metadata/Climate-Library/Spinup-Input-Log_Metadata.xml
+testings/Core8.0-BirdHabitat2.0/Metadata/LANDIS-II v8.0/LANDIS-II v8.0.xml
+testings/Core8.0-BirdHabitat2.0/Metadata/Output Landscape Habitat/Output Landscape Habitat.xml
+testings/Core8.0-BirdHabitat2.0/Metadata/Output Landscape Habitat/SpeciesLog_SPP1_Metadata.xml
+testings/Core8.0-BirdHabitat2.0/Metadata/Output Landscape Habitat/SpeciesLog_SPP2_Metadata.xml
+testings/Core8.0-BirdHabitat2.0/Metadata/Output Landscape Habitat/SppHabitatLog_Metadata.xml
+testings/Core8.0-BirdHabitat2.0/Landis-climate-log.txt
+testings/Core8.0-BirdHabitat2.0/Landis-log.txt
+testings/Core8.0-BirdHabitat2.0/Climate-annual-log.csv
+testings/Core8.0-BirdHabitat2.0/Climate-future-input-log.csv
+testings/Core8.0-BirdHabitat2.0/Climate-spinup-input-log.csv
+testings/Core8.0-BirdHabitat2.0/Biomass-succession-log.csv
