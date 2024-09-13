@@ -7,7 +7,7 @@ This extension is differentiated from the [Local Habitat Suitability Output](htt
 # Release Notes
 
 - Latest official release: Version 2.0 — October 2024
-- [View User Guide](https://github.com/LANDIS-II-Foundation/Extension-Output-Bird-Habitat/blob/master/deploy/docs/LANDIS-II%20Landscape%20Habitat%20Output%20v2%20User%20Guide.pdf).
+- [View User Guide](https://github.com/LANDIS-II-Foundation/Extension-Output-Bird-Habitat/blob/master/docs/LANDIS-II%20Landscape%20Habitat%20Output%20v2%20User%20Guide.pdf).
 - Full release details found in the User Guide and on GitHub.
 - Copyright The LANDIS-II Foundation
 
