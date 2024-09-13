@@ -6,26 +6,25 @@ This extension is differentiated from the [Local Habitat Suitability Output](htt
 
 # Release Notes
 
-- Latest official release: Version 1.0 — January 2020
-- [View User Guide](https://github.com/LANDIS-II-Foundation/Extension-Output-Bird-Habitat/blob/master/deploy/docs/LANDIS-II%20Landscape%20Habitat%20Output%20v1.0%20User%20Guide.pdf).
+- Latest official release: Version 2.0 — October 2024
+- [View User Guide](https://github.com/LANDIS-II-Foundation/Extension-Output-Bird-Habitat/blob/master/deploy/docs/LANDIS-II%20Landscape%20Habitat%20Output%20v2%20User%20Guide.pdf).
 - Full release details found in the User Guide and on GitHub.
+- Copyright The LANDIS-II Foundation
 
 # Requirements
 
 To use Landscape Habitat Output, you need:
 
-- The [LANDIS-II model v7.0](http://www.landis-ii.org/install) installed on your computer.
+- The [LANDIS-II model v8.0](http://www.landis-ii.org/install) installed on your computer.
 - Example files (see below)
 
 # Download
 
-Version 1.0 can be downloaded [here](https://github.com/LANDIS-II-Foundation/Extension-Output-Bird-Habitat/blob/master/deploy/installer/LANDIS-II-V7%20Output%20Landscape%20Habitat%201.0-setup.exe). To install it on your computer, launch the installer.
+The latest version can be downloaded [here](https://github.com/LANDIS-II-Foundation/Extension-Output-Bird-Habitat/blob/master/deploy/installer/LANDIS-II-V8%20Output%20Landscape%20Habitat%202.0-setup.exe). (Look for the download icon in the upper right corner.) Launch the installer.
 
 # Example Files
 
-LANDIS-II requires a global parameter file for your scenario, and separate parameter files for each extension.
-
-Example files are [here](https://github.com/LANDIS-II-Foundation/Extension-Output-Bird-Habitat/tree/master/deploy/examples/Landscape-habitat-output-example.zip).
+Example files are [here](Example files are [here](https://downgit.github.io/#/home?url=https://github.com/LANDIS-II-Foundation/Extension-Output-Bird-Habitat/tree/master/testings/Core8.0-BirdHabitat2.0).
 
 # Citation
 
