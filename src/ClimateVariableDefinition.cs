@@ -73,7 +73,7 @@ namespace Landis.Extension.Output.LandscapeHabitat
         /// <summary>
         /// Climate Data
         /// </summary>
-        AnnualClimate_Monthly ClimateData
+        AnnualClimate ClimateData
         {
             get;
             set;
@@ -102,7 +102,7 @@ namespace Landis.Extension.Output.LandscapeHabitat
         private string year;
         private int minMonth;
         private int maxMonth;
-        private AnnualClimate_Monthly climateData;
+        private AnnualClimate climateData;
         private string transform;
         //---------------------------------------------------------------------
 
@@ -218,7 +218,7 @@ namespace Landis.Extension.Output.LandscapeHabitat
         /// <summary>
         /// Climate Data
         /// </summary>
-        public AnnualClimate_Monthly ClimateData
+        public AnnualClimate ClimateData
         {
             get
             {

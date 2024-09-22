@@ -1,7 +1,3 @@
-//  Copyright 2005-2010 Portland State University, University of Wisconsin-Madison
-//  Authors:  Robert M. Scheller, Jimm Domingo
-
-using Landis.Core;
 using Landis.SpatialModeling;
 using Landis.Library.UniversalCohorts;
 using System.Collections.Generic;
@@ -10,7 +6,7 @@ namespace Landis.Extension.Output.LandscapeHabitat
 {
     public static class SiteVars
     {
-        private static ISiteVar<ISiteCohorts> cohorts;
+        private static ISiteVar<SiteCohorts> cohorts;
         private static ISiteVar<Dictionary<string,int>> localVars;
         private static ISiteVar<Dictionary<string, float>> derivedVars;
         private static ISiteVar<Dictionary<string, float>> neighborVars;
@@ -22,7 +18,7 @@ namespace Landis.Extension.Output.LandscapeHabitat
 
         public static void Initialize()
         {
-            cohorts = PlugIn.ModelCore.GetSiteVar<ISiteCohorts>("Succession.UniversalCohorts");
+            cohorts = PlugIn.ModelCore.GetSiteVar<SiteCohorts>("Succession.UniversalCohorts");
 
             if (cohorts == null)
             {
@@ -48,7 +44,7 @@ namespace Landis.Extension.Output.LandscapeHabitat
         }
 
         //---------------------------------------------------------------------
-        public static ISiteVar<ISiteCohorts> Cohorts
+        public static ISiteVar<SiteCohorts> Cohorts
         {
             get
             {

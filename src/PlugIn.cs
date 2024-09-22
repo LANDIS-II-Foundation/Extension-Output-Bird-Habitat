@@ -1,5 +1,3 @@
-//  Copyright 2005-2010 Portland State University, University of Wisconsin-Madison
-//  Authors:  Robert M. Scheller, Jimm Domingo
 
 using Landis.Core;
 using Landis.Library.UniversalCohorts;
@@ -7,11 +5,9 @@ using Landis.SpatialModeling;
 using Landis.Library.Metadata;
 using System.Collections.Generic;
 using System;
-using System.Text.RegularExpressions;
 using Landis.Library.Climate;
 using System.Linq;
 using System.Data;
-using System.IO;
 
 
 namespace Landis.Extension.Output.LandscapeHabitat
@@ -563,7 +559,7 @@ namespace Landis.Extension.Output.LandscapeHabitat
                     }
                     if (Climate.Future_MonthlyData != null)
                     {
-                        AnnualClimate_Monthly AnnualWeather = Climate.Future_MonthlyData[Climate.Future_MonthlyData.Keys.Min()][firstActiveEco];
+                        AnnualClimate AnnualWeather = Climate.Future_MonthlyData[Climate.Future_MonthlyData.Keys.Min()][firstActiveEco];
                         int maxSpinUpYear = Climate.Spinup_MonthlyData.Keys.Max();
 
                         if (PlugIn.ModelCore.CurrentTime > 0)
