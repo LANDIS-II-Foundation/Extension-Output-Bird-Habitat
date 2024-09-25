@@ -225,3 +225,4 @@ testings/Core8.0-BirdHabitat2.0/Climate-annual-log.csv
 testings/Core8.0-BirdHabitat2.0/Climate-future-input-log.csv
 testings/Core8.0-BirdHabitat2.0/Climate-spinup-input-log.csv
 testings/Core8.0-BirdHabitat2.0/Biomass-succession-log.csv
+src/landscape-habitat-output.sln
