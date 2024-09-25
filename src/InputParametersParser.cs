@@ -6,6 +6,7 @@ using Landis.Core;
 using System.Collections.Generic;
 using System.Text;
 using System;
+using static Landis.Library.Climate.InputParametersParser;
 
 namespace Landis.Extension.Output.LandscapeHabitat
 {
@@ -234,7 +235,8 @@ namespace Landis.Extension.Output.LandscapeHabitat
                     TextReader.SkipWhitespace(currentLine);
                     string variable = TextReader.ReadWord(currentLine);
                     varDefn.Variables.Add(variable);
-                    while (currentLine.Peek() != null)
+                    //while (!AtEndOfInput)
+                        while (currentLine.Peek() != -1)
                     {
                         TextReader.SkipWhitespace(currentLine);
                         string op = TextReader.ReadWord(currentLine);

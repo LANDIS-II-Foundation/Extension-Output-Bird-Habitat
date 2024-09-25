@@ -33,20 +33,21 @@ logforest200	Forest			200		ln
 
 
 ClimateVariables
->> Var Name	Year	Months	Source				ClimateVar	Transform
->> --------	----	------	------				----------	---------
-pdsi		current	3 to 6	monthlyPDSI_0_99.csv	PDSI		none
+>> Var Name	Year	Months	Source			ClimateVar	Transform
+>> --------	----	------	------			----------	---------
+>>pdsi		current	3 to 6	monthlyPDSI_0_99.csv	PDSI		none
+temp		current 3 to 6  Library			temp	none
 
 SpeciesModels
 >> Species	Parameter	Type		Value
 >> -------	---------	----		-----
 SPP1	->	intercept	int	-5.228327
 		loguc200	neighbor	0.823546
-		pdsi	climate	-0.180834
+		temp	climate	-0.180834
 		uf500	neighbor	0.020801
 SPP2	->	intercept	int	-8.25				
 		logforest200	neighbor	1.922					
-		uf500*pdsi	neighbor*climate	-0.00147
+		uf500*temp	neighbor*climate	-0.00147
 
 
 LocalVarMapFileNames   	output/landscape-habitat/{local-var-name}-{timestep}.tif

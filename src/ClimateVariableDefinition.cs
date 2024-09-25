@@ -1,8 +1,6 @@
-//  Copyright 2005-2010 Portland State University, University of Wisconsin-Madison
 //  Authors:  Robert M. Scheller, Jimm Domingo
 
 using Landis.Utilities;
-using System.Collections.Generic;
 using Landis.Library.Climate;
 using System.Data;
 using System;
@@ -188,7 +186,7 @@ namespace Landis.Extension.Output.LandscapeHabitat
             }
             set
             {
-                if((value <1) || (value >12))
+                if ((value < 1) || (value > 12))
                     throw new InputValueException(value.ToString(), "Value must be >=1 and <= 12.");
                 minMonth = value;
             }
@@ -208,7 +206,7 @@ namespace Landis.Extension.Output.LandscapeHabitat
             {
                 if ((value < 1) || (value > 12))
                     throw new InputValueException(value.ToString(), "Value must be >=1 and <= 12.");
-                if(value < minMonth)
+                if (value < minMonth)
                     throw new InputValueException(value.ToString(), "Value must be <= MinMonth.");
                 maxMonth = value;
             }
@@ -260,7 +258,7 @@ namespace Landis.Extension.Output.LandscapeHabitat
         {
         }
         //---------------------------------------------------------------------
-        
+
         public static DataTable ReadWeatherFile(string path)
         {
             PlugIn.ModelCore.UI.WriteLine("   Loading Climate Data...");
